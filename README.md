@@ -11,3 +11,33 @@
 
 ## Project Description
 This enterprise-level fullstack application processes Mobile Money (MoMo) SMS data in XML format, cleans and categorizes the data, stores it in a relational database, and provides a frontend interface for data analysis and visualization.
+
+### Key Features
+- XML data parsing and processing
+- Data cleaning and normalization
+- Transaction categorization
+- SQLite database storage
+- Interactive web dashboard
+- RESTful API (optional)
+- Comprehensive logging and error handling
+
+## System Architecture
+![alt text](image.png)
+
+## Scrum Board – CodeCrafters
+**To Do**
+Complete ETL pipeline (parse → clean → categorize → load → export JSON)
+Implement RESTful API endpoints (/transactions, /analytics)
+Write advanced unit + integration tests
+Performance optimization for ETL & database
+ 
+**In Progress**
+-FastAPI development (Elvis)
+-Frontend dashboard enhancements (Lydivine)
+-DevOps setup & CI/CD (Seth)
+
+**Done**
+
+-Repository setup
+-Initial project structure scaffold
+-Basic XML parsing prototype
