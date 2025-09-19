@@ -176,11 +176,14 @@ ORDER BY date DESC;
 - **JSON Indexing**: Efficient querying of JSON fields in system logs
 
 ---
-
 ## Development Workflow
 
 1. **Feature Development**: Create feature branches from `main`
 2. **Code Review**: Submit pull requests for code review
 3. **Testing**: Ensure all tests pass before merging
+<<<<<<< HEAD
 4. **Documentation**: Update documentation for new features
 5. **Database Changes**: All schema changes must include migration scripts
+=======
+4. **Documentation**: Update documentation for new features
+>>>>>>> 5cbed491fb668a4c47e2cea00a7ba09cf7eff2af
